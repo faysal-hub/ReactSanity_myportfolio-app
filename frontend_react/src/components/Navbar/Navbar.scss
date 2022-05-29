@@ -1,6 +1,5 @@
 .app__navbar {
   width: 100%;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,20 +14,17 @@
   z-index: 2;
 }
 
-.app__navbar-logo {
-  display: flex;
-  justify-content: flex-start;
+.n-left {
+  flex: 1;
   align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
 
-  img {
-    width: 90px;
-    height: 20px;
-
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
-    }
-  }
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .app__navbar-links {
@@ -65,13 +61,13 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--secondary-color);
+        color: var(--orange);
       }
     }
 
     &:hover {
       div {
-        background: var(--secondary-color);
+        background: var(--orange);
       }
     }
   }
@@ -90,7 +86,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: var(--orange);
 
   svg {
     width: 70%;
@@ -126,7 +122,7 @@
     svg {
       width: 35px;
       height: 35px;
-      color: var(--secondary-color);
+      color: var(--orange);
       margin: 0.5rem 1rem;
     }
 
@@ -155,7 +151,7 @@
           transition: all 0.3s ease-in-out;
 
           &:hover {
-            color: var(--secondary-color);
+            color: var(--orange);
           }
         }
       }
