@@ -12,7 +12,7 @@ function Navbar() {
       {/* left */}
       <div className="n-left">
         <div className="n-name">Faysal</div>
-        <span>Toggle</span>
+        {/* <span>Toggle</span> */}
       </div>
       <ul className="app__navbar-links">
         {['home', 'about', 'work', 'skills', 'contact'].map((item) => (

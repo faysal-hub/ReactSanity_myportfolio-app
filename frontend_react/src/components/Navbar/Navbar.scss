@@ -61,13 +61,13 @@
       transition: all 0.3s ease-in-out;
 
       &:hover {
-        color: var(--orange);
+        color: var(--secondary-color);
       }
     }
 
     &:hover {
       div {
-        background: var(--orange);
+        background: var(--secondary-color);
       }
     }
   }
